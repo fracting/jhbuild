@@ -32,3 +32,4 @@ script:
   - cp ${srcdir}/PKGBUILD ~
   - msys2-prepare
   - msys2-wrapper "makepkg -s --noconfirm --noprogressbar --noextract --skippgpcheck -f"
+
